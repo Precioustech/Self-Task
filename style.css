@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 30;
+  background: url(landing\ page1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.regpage {
+  height: 900px;
+  width: 650px;
+  background: rgba(46, 43, 46, 0.6);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 10px, 50px;
+  border-radius: 60px;
+}
+.regpage h2 {
+  margin: 0;
+  text-align: center;
+  color: #ffff;
+  font-size: 40px;
+}
+.regpage p {
+  font-size: 20px;
+  color: seashell;
+  padding: 20px;
+  right: 20px;
+}
+.regpage input {
+  width: 100px;
+  margin-bottom: 20px;
+  border-radius: 150px;
+  margin-left: 14px;
+}
+.regpage input[type="text"],
+.regpage input[type="password"] .regpage input[type="number"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  border-top: top 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  outline: none;
+  width: 90%;
+  background: transparent;
+  height: 30px;
+  color: rgb(248, 239, 239);
+  font-size: px;
+  padding-left: 15px;
+}
+.regpage input[type="submit"] {
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: rgb(156, 156, 57);
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.regpage input[type="submit"]:hover {
+  background-color: white;
+}
+.regpage a:hover {
+  text-decoration: rgb(175, 175, 100);
+  color: white;
+  font-size: 20px;
+  padding: 10px 
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: yellowgreen;
+    color: aliceblue;
+  }
+}
+@media screen and(max-width:600px) and (min-width: 400px) {
+  body {
+    background-color: cadetblue;
+    color: brown;
+  }
+}
